@@ -1,0 +1,46 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+body {
+    min-height: 100vh;
+    background-image: url("luxa.org-opacity-changed-pngtree-galaxy-background-with-white-moon-picture-image_1243113.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    color: white;
+  }
+
+.card.custom-card {
+    width: 100%;
+    max-width: 200px; 
+    margin: 0 auto; 
+}
+
+.card.custom-card img {
+    height: 150px; 
+    object-fit: cover; 
+}
+
+.card.custom-card .card-body {
+  flex-grow: 1; 
+  overflow-y: auto; 
+  padding: 0.5rem;
+  max-height: 100px;
+}
+.card.custom-card .card-title {
+    font-size: 0.9rem; 
+    margin-bottom: 0.3rem;
+}
+
+.card.custom-card .card-text {
+    font-size: 0.8rem; 
+    margin-bottom: 0.3rem; 
+}
+
+.card.custom-card .text-body-secondary {
+    font-size: 0.7rem; 
+}
